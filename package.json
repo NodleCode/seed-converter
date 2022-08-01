@@ -1,0 +1,16 @@
+{
+  "name": "seed-converter",
+  "version": "1.0.0",
+  "description": "A tiny tool to convert mnemonic phrases to seeds and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/util": "^10.1.2",
+    "@polkadot/util-crypto": "^10.1.2",
+    "yargs": "^17.5.1"
+  }
+}
